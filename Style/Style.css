@@ -54,10 +54,11 @@ nav a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 500px;
+    background-position: bottom right, top left;
+    background-size: 500px, 75px;
+
 }
 
 .banner {
@@ -221,4 +222,13 @@ footer {
 }
 .social-links a {
 margin-right: 25px;
+}
+.contact-button{
+    background-color:transparent;
+    color: #FD6E0A;
+    border: 1px solid chocolate;
+    margin-left: 10px;
+}
+.contact-button:hover{
+color: white;
 }
